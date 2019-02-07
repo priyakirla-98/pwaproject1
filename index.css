@@ -1,0 +1,73 @@
+body{
+	background-image: url("imgs/ni.jpg"),linear-gradient(to bottom,pink,yellow);
+	background-size: cover;
+
+}
+#maindiv{
+	background-image: linear-gradient(to right,orange,aqua);
+	display: flex;
+	justify-content: space-around;
+	margin: 10%;
+	border-radius: 8%;
+}
+.subdiv{
+   background-image: linear-gradient(to left,bisque,white);
+   margin: 2%;
+   border-radius: 5%;
+   box-shadow: 5px 5px 5px 5px;
+   width: 30%;
+   
+}
+img{
+   margin: 4%;
+   border-radius: 3%;
+   height: 45%;
+   width: 70%;
+}
+/*mobile view*/
+@media screen and (max-width: 480px) {
+
+	body{
+		background-image: linear-gradient(to bottom,pink,yellow);
+	}
+	#maindiv{
+	background:pink;
+	display: inline-block;
+	justify-content: space-around;
+	margin: 5%;
+	border-radius: 4%;
+	height: 90%;
+	width: 92%
+     }
+.subdiv{
+   background:bisque;
+   margin: 2%;
+   border-radius: 5%;
+   
+   width: 90%;
+
+        }
+}
+/*tablet view*/
+
+	@media   screen and (min-width: 481px) and (max-width: 1024px) {
+
+	body{
+		background-image: linear-gradient(to bottom,pink,green);
+	}
+	#maindiv{
+	background:aqua;
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+	border-radius: 4%;
+	height: 90%;
+	width: 92%
+     }
+.subdiv{
+   background:orange;
+   margin: 2%;
+   border-radius: 5%;
+   
+   width: 90%;
+}

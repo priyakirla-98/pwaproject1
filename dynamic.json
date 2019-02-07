@@ -1,0 +1,43 @@
+{
+	"profile":{
+		"img":"imgs/p.jpg",
+		"name":"Priya Kirla",
+		"roll":"16A31A574",
+		"institute":"Pragati",
+		"place":"Rajahmundry"
+	},
+	"career":{
+		"info":"To secure a challenging position where i can explore"
+	},
+	"education":[
+		{
+      "sno":"1",
+      "degree":"btech",
+      "institute":"pragati",
+      "yop":"2020"
+	},
+	{
+      "sno":"2",
+      "degree":"inter",
+      "institute":"sri chaitanya",
+      "yop":"2016"
+	},
+	{
+      "sno":"3",
+      "degree":"10th",
+      "institute":"sri chaitanya",
+      "yop":"2014"
+	}
+],
+	"languages":[
+		{
+			"lang":"english"
+		},
+		{
+			"lang":"telugu"
+		},
+		{
+			"lang":"hindi"
+		}
+	]
+}

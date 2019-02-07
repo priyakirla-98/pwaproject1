@@ -1,0 +1,104 @@
+body{
+	background:orange;
+    background-size: cover;
+   
+}
+.main{
+	background: pink;
+	display: flex;
+	margin: 4%;
+	border-radius: 5%;
+	
+}
+.left{
+	background: bisque;
+	margin:3%;
+	border-radius: 5%;
+	padding: 3%;
+	text-align: center;
+	height: 60%;
+	
+	
+
+}
+.right{
+	background:lightgreen;
+	margin: 3%;
+	border-radius: 5%;
+	padding: 3%;
+	width: 60%;
+	text-align: center;
+}
+/*mobile view*/
+@media   screen and (max-width: 480px) {
+	body{
+	background-image: linear-gradient(to right,green,lightgreen);
+    background-size: cover;
+   
+}
+.main{
+	background-image: linear-gradient(to right,pink,orange);
+	margin: 4%;
+	display: inline-block;
+	border-radius: 5%;
+	
+}
+.left{
+	background-image: linear-gradient(to right,bisque,orange);
+	margin:3%;
+	border-radius: 5%;
+	padding: 3%;
+	text-align: center;
+	
+	
+	
+
+}
+.right{
+	background-image: linear-gradient(to right,blue,aqua);
+	margin: 3%;
+	border-radius: 5%;
+	padding: 3%;
+	width:94%;
+	
+	text-align: center;
+
+
+} 
+}
+/*tablet view*/
+@media   screen and (min-width: 481px) and (max-width: 1024px) {
+	body{
+	background-image: linear-gradient(to right,green,lightgreen);
+    background-size: cover;
+   
+}
+.main{
+	background-image: linear-gradient(to right,red,yellow);
+	margin: 4%;
+	display: flex;
+	border-radius: 5%;
+	
+}
+.left{
+	background-image: linear-gradient(to left,aqua,orange);
+	margin:3%;
+	border-radius: 5%;
+	padding: 3%;
+	text-align: center;
+	
+	
+	
+
+}
+.right{
+	background-image: linear-gradient(to left,bisque,pink);
+	margin: 3%;
+	border-radius: 5%;
+	padding: 3%;
+	width:94%;
+	
+	text-align: center;
+
+}
+}
